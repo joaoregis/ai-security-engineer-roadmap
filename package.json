@@ -1,0 +1,15 @@
+{
+  "name": "ai-security-engineer-trilha",
+  "version": "1.0.0",
+  "description": "Trilha de estudos local para a transição de carreira para AI Security Engineer (OWASP, AWS SCS-C03, portfólio e entrevistas).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js --open",
+    "serve": "node server.js",
+    "test": "node tests/server.test.js && node tests/md.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

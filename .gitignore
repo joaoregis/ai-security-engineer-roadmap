@@ -1,0 +1,19 @@
+# Progresso pessoal (gerado em runtime)
+progress.json
+progress.json.tmp
+
+# Uploads incompletos
+src/materiais/*.part
+
+# Saídas e índices locais de ferramentas (contêm caminhos da máquina)
+graphify-out/
+.repowise/
+
+# Dependências e config local
+node_modules/
+.claude/settings.local.json
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
